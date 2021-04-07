@@ -1,0 +1,8 @@
+github.com/gorilla/mux v1.8.0 h1:i40aqfkR1h2SlN9hojwV5ZA91wcXFOvkdNIeFDP5koI=
+github.com/gorilla/mux v1.8.0/go.mod h1:DVbg23sWSpFRCP0SfiEN6jmj59UnW/n46BH5rLB71So=
+github.com/microlib/logger v1.1.0 h1:DPT1SGkVHBjxWhgO4Anex/hDkl4cmTQOij4zXY6w6T4=
+github.com/microlib/logger v1.1.0/go.mod h1:g5tMe93yKVNmEQ4bWSjfjumQsPKoYVfSTEM5KSHiBsM=
+github.com/microlib/simple v1.0.1 h1:hkJjfQg0PejJUJ6XiNG/1hxJa6dDsf3EPSh9ZbWDLjc=
+github.com/microlib/simple v1.0.1/go.mod h1:AIAkCaaQxDOkppDihi2iI0xOHak5dJjGtzGS35H8lcQ=
+github.com/rs/cors v1.7.0 h1:+88SsELBHx5r+hZ8TCkggzSstaWNbDvThkVK8H6f9ik=
+github.com/rs/cors v1.7.0/go.mod h1:gFx+x8UowdsKA9AchylcLynDq+nNFfI8FkUZdN/jGCU=
