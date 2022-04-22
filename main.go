@@ -26,7 +26,7 @@ func main() {
 	})
 
 	r := mux.NewRouter()
-	r.PathPrefix("/").Handler(http.FileServer(http.Dir("./html/")))
+	r.PathPrefix("/").Handler(http.FileServer(http.Dir("./fast-cicd-html/")))
 	handler := c.Handler(r)
 	logger.Info("Starting server on port " + os.Getenv("SERVER_PORT"))
 	http.ListenAndServe(":"+os.Getenv("SERVER_PORT"), handler)
