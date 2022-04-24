@@ -6,6 +6,9 @@ build:
 	mkdir -p build
 	go build -o build ./...
 
+verify:
+	golangci-lint run -c .golangci.yaml --deadline=30m
+
 test:
 	go test -v -coverprofile=tests/results/cover.out ./...
 
@@ -17,7 +20,7 @@ clean:
 	go clean ./...
 
 container:
-	podman build -t  quay.io/luigizuccarelli/golang-cicd-engine:1.16.3 .
+	podman build -t  quay.io/luigizuccarelli/golang-cicd-webserver:1.16.3 .
 
 push:
-	podman push --authfile=/home/lzuccarelli/config.json quay.io/luigizuccarelli/golang-cicd-engine:1.16.3 
+	podman push --authfile=/home/lzuccarelli/config.json quay.io/luigizuccarelli/golang-cicd-webserver:1.16.3 

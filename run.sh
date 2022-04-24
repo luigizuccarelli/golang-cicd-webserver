@@ -1,7 +1,7 @@
 #!/bin/bash
 
 LOG_LEVEL=info
-SERVER_PORT=9000
+SERVER_PORT=9003
 VERSION=1.0.1
 NAME=golang-cicd-webserver
 
